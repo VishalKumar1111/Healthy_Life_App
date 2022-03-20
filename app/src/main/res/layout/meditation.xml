@@ -1,0 +1,82 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgmindful"
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:importantForAccessibility="no"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mindfull"/>
+
+            <TextView
+                android:id="@+id/text_mindfull"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="30sp"
+                android:text="Mindfull Meditation"
+                android:textAppearance="?attr/textAppearanceHeadline6" />
+
+            <ImageView
+                android:id="@+id/img_kindness"
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:importantForAccessibility="no"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kindness"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/text_kindness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="28sp"
+                android:text="Loving-Kindness Meditation"
+                android:textAppearance="?attr/textAppearanceHeadline6" />
+            <ImageView
+                android:id="@+id/img_vipassana"
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:importantForAccessibility="no"
+                android:scaleType="centerCrop"
+                android:src="@drawable/vipassana"/>
+
+            <TextView
+                android:id="@+id/text_vipasana"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="30sp"
+                android:text="Vipasana Meditation"
+                android:textAppearance="?attr/textAppearanceHeadline6" />
+            <ImageView
+                android:id="@+id/img_awareness"
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:importantForAccessibility="no"
+                android:scaleType="centerCrop"
+                android:src="@drawable/breadt_awareness"/>
+
+            <TextView
+                android:id="@+id/text_awareness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="24sp"
+                android:text="Breadth Awareness meditation"
+                android:textAppearance="?attr/textAppearanceHeadline6" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</ScrollView>

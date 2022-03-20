@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vakrasana Or Twisted Pose"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:background="#B39DDB"/>
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/vakrasana"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vakrasana comes from a combination of two words, Vakra which means twisted and asana which means yoga posture. Vakrasana is among flexible yoga twist poses where twisting is observed in the spinal region and one may also call it a twisted pose or seated twist yoga pose.\n\n
+                          Although Vakrasana is a simple yoga for beginners it provides adequate stretch and twist to the spinal cord and lower abdomen region. The spinal twist yoga is practised in sitting posting and the trunk is twisted to either side.\n\n
+                          The twisted pose is beneficial for various body organs including liver, kidney, pancreas, ovary, testis, stomach and intestine. Vakrasana or the seated twist increases flexibility and burns the belly fat. Regular practice of Vakrasana benefits in case of diabetes."
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:background="#FFF59D"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/detail_vakrasana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="click here for more detail"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#370740"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+</ScrollView>

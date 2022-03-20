@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/Login">
+
+    <fragment
+        android:id="@+id/Login"
+        android:name="com.example.doctor.Starting.Login"
+        android:label="Login "
+        tools:layout="@layout/login" >
+
+        <action
+            android:id="@+id/action_Login_to_analysis"
+            app:destination="@id/analysis" />
+    </fragment>
+    <fragment
+        android:id="@+id/analysis"
+        android:name="com.example.doctor.Analysis"
+        android:label="fragment_analysis"
+        tools:layout="@layout/fragment_analysis" >
+        <action
+            android:id="@+id/action_analysis_to_meditation"
+            app:destination="@id/meditation" />
+    </fragment>
+    <fragment
+        android:id="@+id/meditation"
+        android:name="com.example.doctor.Meditation"
+        android:label="fragment_meditation"
+        tools:layout="@layout/fragment_meditation" >
+        <action
+            android:id="@+id/action_meditation_to_quiz"
+            app:destination="@id/quiz" />
+    </fragment>
+    <fragment
+        android:id="@+id/quiz"
+        android:name="com.example.doctor.Quiz"
+        android:label="fragment_quiz"
+        tools:layout="@layout/fragment_quiz" >
+        <action
+            android:id="@+id/action_quiz_to_health"
+            app:destination="@id/health" />
+    </fragment>
+    <fragment
+        android:id="@+id/health"
+        android:name="com.example.doctor.Health"
+        android:label="fragment_health"
+        tools:layout="@layout/fragment_health" >
+        <action
+            android:id="@+id/action_health_to_cardView"
+            app:destination="@id/cardView" />
+    </fragment>
+    <fragment
+        android:id="@+id/cardView"
+        android:name="com.example.doctor.CardView"
+        android:label="fragment_card_view"
+        tools:layout="@layout/fragment_card_view" >
+        <action
+            android:id="@+id/action_cardView_to_quizes2"
+            app:destination="@id/quizes2"
+            />
+        <action
+            android:id="@+id/action_cardView_to_analys"
+            app:destination="@id/analys" />
+        <action
+            android:id="@+id/action_cardView_to_medico"
+            app:destination="@id/medico" />
+        <action
+            android:id="@+id/action_cardView_to_yoga"
+            app:destination="@id/yoga" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizes2"
+        android:name="com.example.doctor.Next.Quizes"
+        android:label="Quizes"
+        tools:layout="@layout/quiz"/>
+    <fragment
+        android:id="@+id/analys"
+        android:name="com.example.doctor.Next.Analysis"
+        android:label="Analys"
+        tools:layout="@layout/analysis"/>
+    <fragment
+        android:id="@+id/medico"
+        android:name="com.example.doctor.Next.Meditation"
+        android:label="meidtation"
+        tools:layout="@layout/meditation"/>
+    <fragment
+            android:id="@+id/yoga"
+            android:name="com.example.doctor.Yoga"
+            android:label="Yoga"
+            tools:layout="@layout/fragment_yoga"/>
+
+</navigation>
