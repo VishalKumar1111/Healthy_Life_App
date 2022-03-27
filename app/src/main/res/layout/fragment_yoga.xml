@@ -11,7 +11,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/sukhasana"
+                android:id="@+id/sukhas"
                 android:layout_width="match_parent"
                 android:layout_height="194dp"
                 android:importantForAccessibility="no"
@@ -28,7 +28,7 @@
                 android:textAppearance="?attr/textAppearanceHeadline6" />
 
             <ImageView
-                android:id="@+id/dhanurasana"
+                android:id="@+id/dhanura"
                 android:layout_width="match_parent"
                 android:layout_height="194dp"
                 android:importantForAccessibility="no"
@@ -46,7 +46,7 @@
                 android:textStyle="bold"
                 android:textAppearance="?attr/textAppearanceHeadline6" />
             <ImageView
-                android:id="@+id/vakrasana"
+                android:id="@+id/vakras"
                 android:layout_width="match_parent"
                 android:layout_height="194dp"
                 android:importantForAccessibility="no"
@@ -63,7 +63,7 @@
                 android:text="Vakrasana Or Twisted Pose"
                 android:textAppearance="?attr/textAppearanceHeadline6" />
             <ImageView
-                android:id="@+id/kakasana"
+                android:id="@+id/kakas"
                 android:layout_width="match_parent"
                 android:layout_height="194dp"
                 android:importantForAccessibility="no"

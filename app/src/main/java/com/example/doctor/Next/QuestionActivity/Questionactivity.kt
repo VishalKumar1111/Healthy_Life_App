@@ -1,19 +1,15 @@
 package com.example.doctor.Next.QuestionActivity
 
-import android.content.Context
 import android.content.Intent
 import android.graphics.Color
 import android.graphics.Typeface
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.view.View
 import android.widget.TextView
 import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil.setContentView
 import androidx.fragment.app.Fragment
-import androidx.navigation.Navigation
 import com.example.doctor.Next.Quizes
 import com.example.doctor.R
 import kotlinx.android.synthetic.main.model.*
@@ -23,9 +19,9 @@ class Questionactivity : Fragment(R.layout.model),View.OnClickListener{
     private var mcurrentposition: Int=1
     private var mQuestionlist: ArrayList<Question>?=null
     private var mSelectedoptionposition:Int=0
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
         mQuestionlist=Constents.getQuestions()
         setQuestion()
 
@@ -66,7 +62,7 @@ class Questionactivity : Fragment(R.layout.model),View.OnClickListener{
         for(option in options){
             option.setTextColor(Color.parseColor("#7A8089"))
             option.typeface= Typeface.DEFAULT
-            option.background=ContextCompat.getDrawable(this,R.drawable.default_option_border_bg)
+            option.background= context?.let { ContextCompat.getDrawable(it,R.drawable.default_option_border_bg) }
         }
 
     }
@@ -93,8 +89,8 @@ class Questionactivity : Fragment(R.layout.model),View.OnClickListener{
                         mcurrentposition<=mQuestionlist!!.size->{
                             setQuestion()
                         }else->{
-                            Toast.makeText(this,"You Have Completed the Quiz",Toast.LENGTH_SHORT).show()
-                            val intent=Intent(this,Quizes::class.java)
+                            Toast.makeText(context,"You Have Completed the Quiz",Toast.LENGTH_SHORT).show()
+                            val intent=Intent(context,Quizes::class.java)
                             startActivity(intent)
                         }
                     }
@@ -119,16 +115,16 @@ class Questionactivity : Fragment(R.layout.model),View.OnClickListener{
     private fun answerView(answer: Int, drawableView: Int) {
         when(answer){
             1 ->{
-                tv_option1.background=ContextCompat.getDrawable(this,drawableView)
+                tv_option1.background= context?.let { ContextCompat.getDrawable(it,drawableView) }
             }
             2 ->{
-                tv_option2.background=ContextCompat.getDrawable(this,drawableView)
+                tv_option2.background= context?.let { ContextCompat.getDrawable(it,drawableView) }
             }
             3 ->{
-                tv_option3.background=ContextCompat.getDrawable(this,drawableView)
+                tv_option3.background= context?.let { ContextCompat.getDrawable(it,drawableView) }
             }
             4->{
-                tv_option4.background=ContextCompat.getDrawable(this,drawableView)
+                tv_option4.background= context?.let { ContextCompat.getDrawable(it,drawableView) }
             }
         }
 
@@ -139,7 +135,7 @@ class Questionactivity : Fragment(R.layout.model),View.OnClickListener{
         mSelectedoptionposition=selectedOptionNum
         tv.setTextColor(Color.parseColor("#363A43"))
         tv.setTypeface(tv.typeface,Typeface.BOLD)
-        tv.background=ContextCompat.getDrawable(context,R.drawable.selected_option_border_bg)
+        tv.background= context?.let { ContextCompat.getDrawable(it,R.drawable.selected_option_border_bg) }
     }
 
 

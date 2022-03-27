@@ -95,34 +95,34 @@
             tools:layout="@layout/fragment_yoga">
         <action
             android:id="@+id/action_yoga_to_kakasana"
-            app:destination="@id/kakasana" />
+            app:destination="@id/kakas" />
         <action
             android:id="@+id/action_yoga_to_vakrasana"
-            app:destination="@id/vakrasana" />
+            app:destination="@id/vakras" />
         <action
             android:id="@+id/action_yoga_to_sukhasana"
-            app:destination="@id/sukhasana" />
+            app:destination="@id/sukhas" />
         <action
             android:id="@+id/action_yoga_to_dhanurasana"
-            app:destination="@id/dhanurasana" />
+            app:destination="@id/dhanura" />
     </fragment>
         <fragment
-            android:id="@+id/kakasana"
+            android:id="@+id/kakas"
             android:name="com.example.doctor.Yoga_Types.kakasana"
             android:label="Kakasana"
             tools:layout="@layout/kakasana"/>
         <fragment
-            android:id="@+id/vakrasana"
+            android:id="@+id/vakras"
             android:name="com.example.doctor.Yoga_Types.Vakrasana"
             android:label="Vakrasana"
             tools:layout="@layout/vakrasana"/>
         <fragment
-            android:id="@+id/sukhasana"
+            android:id="@+id/sukhas"
             android:name="com.example.doctor.Yoga_Types.Sukhasana"
             android:label="Sukhasana"
             tools:layout="@layout/sukhasana"/>
         <fragment
-            android:id="@+id/dhanurasana"
+            android:id="@+id/dhanura"
             android:name="com.example.doctor.Yoga_Types.Dhanurasana"
             android:label="Dhanurasana"
             tools:layout="@layout/dhanurasana"/>
