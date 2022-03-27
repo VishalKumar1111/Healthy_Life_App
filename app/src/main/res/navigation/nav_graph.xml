@@ -69,6 +69,9 @@
         <action
             android:id="@+id/action_cardView_to_yoga"
             app:destination="@id/yoga" />
+        <action
+            android:id="@+id/action_cardView_to_care"
+            app:destination="@id/care" />
     </fragment>
     <fragment
         android:id="@+id/quizes2"
@@ -89,6 +92,44 @@
             android:id="@+id/yoga"
             android:name="com.example.doctor.Yoga"
             android:label="Yoga"
-            tools:layout="@layout/fragment_yoga"/>
+            tools:layout="@layout/fragment_yoga">
+        <action
+            android:id="@+id/action_yoga_to_kakasana"
+            app:destination="@id/kakasana" />
+        <action
+            android:id="@+id/action_yoga_to_vakrasana"
+            app:destination="@id/vakrasana" />
+        <action
+            android:id="@+id/action_yoga_to_sukhasana"
+            app:destination="@id/sukhasana" />
+        <action
+            android:id="@+id/action_yoga_to_dhanurasana"
+            app:destination="@id/dhanurasana" />
+    </fragment>
+        <fragment
+            android:id="@+id/kakasana"
+            android:name="com.example.doctor.Yoga_Types.kakasana"
+            android:label="Kakasana"
+            tools:layout="@layout/kakasana"/>
+        <fragment
+            android:id="@+id/vakrasana"
+            android:name="com.example.doctor.Yoga_Types.Vakrasana"
+            android:label="Vakrasana"
+            tools:layout="@layout/vakrasana"/>
+        <fragment
+            android:id="@+id/sukhasana"
+            android:name="com.example.doctor.Yoga_Types.Sukhasana"
+            android:label="Sukhasana"
+            tools:layout="@layout/sukhasana"/>
+        <fragment
+            android:id="@+id/dhanurasana"
+            android:name="com.example.doctor.Yoga_Types.Dhanurasana"
+            android:label="Dhanurasana"
+            tools:layout="@layout/dhanurasana"/>
+        <fragment
+            android:id="@+id/care"
+            android:name="com.example.doctor.CARE"
+            android:label="Care"
+            tools:layout="@layout/health_care"/>
 
 </navigation>

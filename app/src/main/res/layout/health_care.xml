@@ -1,0 +1,146 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/meal"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:importantForAccessibility="no"
+                android:src="@drawable/healthcare"/>
+
+            <TextView
+                android:id="@+id/txt_meal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Base your meals on higher fibre starchy carbohydrates"
+                android:textAppearance="?attr/textAppearanceHeadline6" />
+
+            <ImageView
+                android:id="@+id/fruit"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:importantForAccessibility="no"
+                android:src="@drawable/healthcare"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/text_fruit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="28sp"
+                android:text="Eat lots of fruit and veg"
+                android:textStyle="bold"
+                android:textAppearance="?attr/textAppearanceHeadline6" />
+            <ImageView
+                android:id="@+id/fish"
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:importantForAccessibility="no"
+                android:src="@drawable/healthcare"/>
+
+            <TextView
+                android:id="@+id/txt_fish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:text="Eat more fish, including a portion of oily fish"
+                android:textAppearance="?attr/textAppearanceHeadline6" />
+            <ImageView
+                android:id="@+id/sugar"
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:importantForAccessibility="no"
+                android:src="@drawable/healthcare"/>
+
+            <TextView
+                android:id="@+id/text_sugar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:text="Cut down on saturated fat and sugar Saturated fat"
+                android:textAppearance="?attr/textAppearanceHeadline6" />
+            <ImageView
+                android:id="@+id/txt_weight"
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:importantForAccessibility="no"
+                android:src="@drawable/healthcare"/>
+
+            <TextView
+                android:id="@+id/weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:text="Get active and be a healthy weight"
+                android:textAppearance="?attr/textAppearanceHeadline6" />
+            <ImageView
+                android:id="@+id/thirsty"
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:importantForAccessibility="no"
+                android:src="@drawable/healthcare"/>
+
+            <TextView
+                android:id="@+id/text_thirsty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:text="Do not get thirsty"
+                android:textAppearance="?attr/textAppearanceHeadline6" />
+            <ImageView
+                android:id="@+id/salt"
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:importantForAccessibility="no"
+                android:src="@drawable/healthcare"/>
+
+            <TextView
+                android:id="@+id/text_salt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:text="Eat less salt: no more than 6g a day for adults"
+                android:textAppearance="?attr/textAppearanceHeadline6" />
+            <ImageView
+                android:id="@+id/breakfast"
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:importantForAccessibility="no"
+                android:src="@drawable/healthcare"/>
+
+            <TextView
+                android:id="@+id/text_Breakfast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:text="Do not skip breakfast"
+                android:textAppearance="?attr/textAppearanceHeadline6" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</ScrollView>

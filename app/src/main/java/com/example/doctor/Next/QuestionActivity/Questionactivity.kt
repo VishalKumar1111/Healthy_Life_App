@@ -11,19 +11,21 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import androidx.databinding.DataBindingUtil.setContentView
+import androidx.fragment.app.Fragment
+import androidx.navigation.Navigation
 import com.example.doctor.Next.Quizes
 import com.example.doctor.R
 import kotlinx.android.synthetic.main.model.*
 
-class Questionactivity : AppCompatActivity(),View.OnClickListener{
+class Questionactivity : Fragment(R.layout.model),View.OnClickListener{
 
     private var mcurrentposition: Int=1
     private var mQuestionlist: ArrayList<Question>?=null
     private var mSelectedoptionposition:Int=0
 
-    override fun onCreate(savedInstanceState: Bundle?, persistentState: PersistableBundle?) {
-        super.onCreate(savedInstanceState, persistentState)
-        setContentView(R.layout.model)
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
         mQuestionlist=Constents.getQuestions()
         setQuestion()
 
@@ -137,7 +139,7 @@ class Questionactivity : AppCompatActivity(),View.OnClickListener{
         mSelectedoptionposition=selectedOptionNum
         tv.setTextColor(Color.parseColor("#363A43"))
         tv.setTypeface(tv.typeface,Typeface.BOLD)
-        tv.background=ContextCompat.getDrawable(this,R.drawable.selected_option_border_bg)
+        tv.background=ContextCompat.getDrawable(context,R.drawable.selected_option_border_bg)
     }
 
 
