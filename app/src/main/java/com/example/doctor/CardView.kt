@@ -22,6 +22,7 @@ class CardView : Fragment(R.layout.fragment_card_view) {
         val imganalysis=view.findViewById<ImageView>(R.id.img_analysis)
         val imgquiz=view.findViewById<ImageView>(R.id.img_quiz)
         val imgmeditation=view.findViewById<ImageView>(R.id.img_meditation)
+        val imghealth=view.findViewById<ImageView>(R.id.img_health)
         imganalysis.setOnClickListener{
             Navigation.findNavController(view).navigate(R.id.action_cardView_to_analys)
         }
@@ -33,6 +34,9 @@ class CardView : Fragment(R.layout.fragment_card_view) {
           }
         img_yoga.setOnClickListener {
             Navigation.findNavController(view).navigate(R.id.action_cardView_to_yoga)
+        }
+        imghealth.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_cardView_to_care)
         }
          }
     }

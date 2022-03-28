@@ -38,6 +38,7 @@
         android:name="com.example.doctor.Quiz"
         android:label="fragment_quiz"
         tools:layout="@layout/fragment_quiz" >
+
         <action
             android:id="@+id/action_quiz_to_health"
             app:destination="@id/health" />
@@ -70,8 +71,12 @@
             android:id="@+id/action_cardView_to_yoga"
             app:destination="@id/yoga" />
         <action
+            android:id="@+id/action_cardView_self"
+            app:destination="@id/cardView" />
+        <action
             android:id="@+id/action_cardView_to_care"
             app:destination="@id/care" />
+
     </fragment>
     <fragment
         android:id="@+id/quizes2"
@@ -93,18 +98,19 @@
             android:name="com.example.doctor.Yoga"
             android:label="Yoga"
             tools:layout="@layout/fragment_yoga">
+
         <action
-            android:id="@+id/action_yoga_to_kakasana"
-            app:destination="@id/kakas" />
-        <action
-            android:id="@+id/action_yoga_to_vakrasana"
-            app:destination="@id/vakras" />
-        <action
-            android:id="@+id/action_yoga_to_sukhasana"
+            android:id="@+id/action_yoga_to_sukhas"
             app:destination="@id/sukhas" />
         <action
-            android:id="@+id/action_yoga_to_dhanurasana"
+            android:id="@+id/action_yoga_to_dhanura"
             app:destination="@id/dhanura" />
+        <action
+            android:id="@+id/action_yoga_to_vakras"
+            app:destination="@id/vakras" />
+        <action
+            android:id="@+id/action_yoga_to_kakas"
+            app:destination="@id/kakas" />
     </fragment>
         <fragment
             android:id="@+id/kakas"

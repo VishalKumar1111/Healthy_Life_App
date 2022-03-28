@@ -15,16 +15,16 @@ class Yoga : Fragment(R.layout.fragment_yoga) {
         val imgdhanurasana=view.findViewById<ImageView>(R.id.dhanura)
         val imgvakrasana=view.findViewById<ImageView>(R.id.vakras)
         imgsukhasana.setOnClickListener{
-            Navigation.findNavController(view).navigate(R.id.action_yoga_to_sukhasana)
+            Navigation.findNavController(view).navigate(R.id.action_yoga_to_sukhas)                                                                                                      
         }
         imgkakasana.setOnClickListener{
-            Navigation.findNavController(view).navigate(R.id.action_yoga_to_kakasana)
+            Navigation.findNavController(view).navigate(R.id.action_yoga_to_kakas)
         }
         imgdhanurasana.setOnClickListener{
-            Navigation.findNavController(view).navigate(R.id.action_yoga_to_dhanurasana)
+            Navigation.findNavController(view).navigate(R.id.action_yoga_to_dhanura)
         }
         imgvakrasana.setOnClickListener{
-            Navigation.findNavController(view).navigate(R.id.action_yoga_to_vakrasana)
+            Navigation.findNavController(view).navigate(R.id.action_yoga_to_vakras)
         }
 
     }
