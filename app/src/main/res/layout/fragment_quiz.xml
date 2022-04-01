@@ -39,9 +39,10 @@
             android:id="@+id/btn_quiz"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Next"
             android:layout_gravity="right"
-            android:background="@color/white"/>
+            android:background="@color/white"
+            android:text="Next"
+            android:textColor="#fff" />
 
     </LinearLayout>
 

@@ -24,7 +24,7 @@
             android:textSize="40sp"
             android:gravity="center"
             android:layout_margin="5dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrim"
             />
        </com.google.android.material.textfield.TextInputLayout>
 

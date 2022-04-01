@@ -9,10 +9,10 @@ import android.widget.Button
 import android.widget.ImageView
 import androidx.navigation.Navigation
 
-class Quiz : Fragment(R.layout.fragment_health) {
+class Quiz : Fragment(R.layout.fragment_quiz) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val health=view.findViewById<Button>(R.id.btn_health)
+        val health=view.findViewById<Button>(R.id.btn_quiz)
 
         health.setOnClickListener{
             Navigation.findNavController(view).navigate(R.id.action_quiz_to_health)

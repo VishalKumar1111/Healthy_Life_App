@@ -12,7 +12,7 @@ import android.provider.ContactsContract.CommonDataKinds.Website.URL
 import android.widget.Toast
 
 
-class kakasana:Fragment(R.layout.dhanurasana) {
+class kakasana:Fragment(R.layout.kakasana) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 

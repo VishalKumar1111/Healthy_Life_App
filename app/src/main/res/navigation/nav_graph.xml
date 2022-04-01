@@ -9,12 +9,24 @@
         android:id="@+id/Login"
         android:name="com.example.doctor.Starting.Login"
         android:label="Login "
-        tools:layout="@layout/login" >
-
+        tools:layout="@layout/login">
+        <action
+            android:id="@+id/action_Login_to_SignUp"
+            app:destination="@id/SignUp" />
         <action
             android:id="@+id/action_Login_to_analysis"
             app:destination="@id/analysis" />
     </fragment>
+    <fragment
+        android:id="@+id/SignUp"
+        android:name="com.example.doctor.Starting.SignUp"
+        android:label="SIgnUp "
+        tools:layout="@layout/sign_up" >
+        <action
+            android:id="@+id/action_SignUp_to_analysis"
+            app:destination="@id/analysis" />
+    </fragment>
+
     <fragment
         android:id="@+id/analysis"
         android:name="com.example.doctor.Analysis"

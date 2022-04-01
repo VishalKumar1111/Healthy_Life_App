@@ -5,10 +5,7 @@ import android.os.Bundle
 import android.os.PersistableBundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.Fragment
-import com.example.doctor.Next.QuestionActivity.Questionactivity
-import com.example.doctor.R
-import kotlinx.android.synthetic.main.model.*
+import com.example.doctor.Next.QuestionActivity.QuestionMainactivity
 import kotlinx.android.synthetic.main.quiz.*
 
 class Quizes: AppCompatActivity() {
@@ -18,7 +15,7 @@ class Quizes: AppCompatActivity() {
        window.decorView.systemUiVisibility=View.SYSTEM_UI_FLAG_FULLSCREEN
 
         btn_start.setOnClickListener{
-            val intent=Intent(this,Questionactivity::class.java)
+            val intent=Intent(this,QuestionMainactivity::class.java)
             startActivity(intent)
             finish()
 

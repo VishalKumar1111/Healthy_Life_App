@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_amoxicillin"
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:importantForAccessibility="no"
+                android:scaleType="centerCrop"
+                android:src="@drawable/amoxicillin" />
+
+            <TextView
+                android:id="@+id/amoxicillin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textStyle="bold"
+                android:text="Amoxicillin"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/img_Vitamin"
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:importantForAccessibility="no"
+                android:src="@drawable/vitamind" />
+
+            <TextView
+                android:id="@+id/text_Vitamin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textStyle="bold"
+                android:text="Vitamin D 50,000 IU"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/crocin"
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:importantForAccessibility="no"
+                android:src="@drawable/crocin" />
+
+            <TextView
+                android:id="@+id/text_quiz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Crocin"
+
+                android:textStyle="bold"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/img_paracetamol"
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:importantForAccessibility="no"
+                android:scaleType="centerCrop"
+                android:src="@drawable/paracetamol" />
+
+            <TextView
+                android:id="@+id/text_paracetamol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textStyle="bold"
+                android:text="Paracetamol"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/img_pudin"
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:importantForAccessibility="no"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pudin" />
+
+            <TextView
+                android:id="@+id/text_pudin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Pudin Hara"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/img_evion"
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:importantForAccessibility="no"
+                android:scaleType="centerCrop"
+                android:src="@drawable/evion" />
+
+            <TextView
+                android:id="@+id/text_evion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Evion"
+                android:textStyle="bold"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</ScrollView>
