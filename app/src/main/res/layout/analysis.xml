@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/colorAccent">
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -38,18 +37,18 @@
                 android:layout_width="250dp"
                 android:layout_height="250dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/sukhasana"
+                app:srcCompat="@drawable/malaria"
                 android:layout_margin="10dp"
                 android:background="@color/teal_200"/>
 
             <ImageView
-                android:background="@color/teal_200"
                 android:id="@+id/imageView14"
                 android:layout_width="250dp"
                 android:layout_height="250dp"
-                android:layout_weight="1"
                 android:layout_margin="10dp"
-                app:srcCompat="@drawable/breadt_awareness" />
+                android:layout_weight="1"
+                android:background="@color/teal_200"
+                app:srcCompat="@drawable/dengu" />
         </LinearLayout>
 
         <LinearLayout
@@ -70,7 +69,7 @@
                     android:layout_height="250dp"
                     android:layout_weight="1"
                     android:layout_margin="10dp"
-                    app:srcCompat="@drawable/vakrasana" />
+                    app:srcCompat="@drawable/typhoid" />
 
                 <ImageView
                     android:background="@color/teal_200"
@@ -79,7 +78,7 @@
                     android:layout_height="250dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/kindness" />
+                    app:srcCompat="@drawable/flu" />
             </LinearLayout>
 
             <LinearLayout
@@ -99,7 +98,7 @@
                         android:layout_height="250dp"
                         android:layout_weight="1"
                         android:layout_margin="10dp"
-                        app:srcCompat="@drawable/health_care" />
+                        app:srcCompat="@drawable/covid" />
 
                     <ImageView
                         android:background="@color/teal_200"
@@ -108,7 +107,7 @@
                         android:layout_height="250dp"
                         android:layout_weight="1"
                         android:layout_margin="10dp"
-                        app:srcCompat="@drawable/yoga" />
+                        app:srcCompat="@drawable/tuberculosis" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -129,7 +128,7 @@
                         android:layout_height="250dp"
                         android:layout_weight="1"
                         android:layout_margin="10dp"
-                        app:srcCompat="@drawable/vipassana" />
+                        app:srcCompat="@drawable/cancer" />
 
                     <ImageView
                         android:background="@color/teal_200"
@@ -138,7 +137,7 @@
                         android:layout_height="250dp"
                         android:layout_margin="10dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/mindfull" />
+                        app:srcCompat="@drawable/pneumonia" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>

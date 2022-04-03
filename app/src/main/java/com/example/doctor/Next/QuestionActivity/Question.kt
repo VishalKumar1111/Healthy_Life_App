@@ -1,6 +1,5 @@
 package com.example.doctor.Next.QuestionActivity
 
-import android.os.Looper.loop
 import com.example.doctor.R
 
 class Question(
