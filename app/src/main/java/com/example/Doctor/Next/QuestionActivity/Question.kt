@@ -1,6 +1,6 @@
 package com.example.Doctor.Next.QuestionActivity
 
-import com.example.doctor.R
+import com.example.Doctor.R
 
 
 class Question(

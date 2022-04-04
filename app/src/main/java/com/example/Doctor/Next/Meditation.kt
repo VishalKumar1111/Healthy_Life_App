@@ -7,7 +7,7 @@ import android.view.View
 import android.widget.ImageView
 import androidx.fragment.app.Fragment
 
-import com.example.doctor.R
+import com.example.Doctor.R
 
 class Meditation:Fragment(R.layout.meditation) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

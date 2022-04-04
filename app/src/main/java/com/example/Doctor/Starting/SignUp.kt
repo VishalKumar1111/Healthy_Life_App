@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.util.Patterns
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.doctor.R
+import com.example.Doctor.R
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.sign_up.*
 

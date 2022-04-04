@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
-import com.example.doctor.R
+import com.example.Doctor.R
 import kotlinx.android.synthetic.main.fragment_meditation.*
 
 

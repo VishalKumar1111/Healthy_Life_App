@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.navigation.Navigation
-import com.example.doctor.R
+import com.example.Doctor.R
 
 class Analysis : Fragment() {
     override fun onCreateView(

@@ -6,7 +6,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import android.content.Intent
 import android.net.Uri
-import com.example.doctor.R
+import com.example.Doctor.R
 
 
 class kakasana:Fragment(R.layout.kakasana) {

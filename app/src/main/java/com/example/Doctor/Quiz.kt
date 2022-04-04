@@ -5,7 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.View
 import android.widget.Button
 import androidx.navigation.Navigation
-import com.example.doctor.R
+import com.example.Doctor.R
 
 class Quiz : Fragment(R.layout.fragment_quiz) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

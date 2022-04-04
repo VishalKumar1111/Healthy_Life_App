@@ -5,7 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.View
 import android.widget.ImageView
 import androidx.navigation.Navigation
-import com.example.doctor.R
+import com.example.Doctor.R
 import kotlinx.android.synthetic.main.fragment_card_view.*
 
 

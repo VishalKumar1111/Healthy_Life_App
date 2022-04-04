@@ -7,7 +7,7 @@ import android.view.View
 import android.widget.MediaController
 import android.widget.TextView
 import androidx.fragment.app.Fragment
-import com.example.doctor.R
+import com.example.Doctor.R
 
 class Sukhasana:Fragment(R.layout.sukhasana) {
 

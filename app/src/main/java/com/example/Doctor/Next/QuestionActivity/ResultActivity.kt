@@ -4,7 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
-import com.example.doctor.R
+import com.example.Doctor.R
 import kotlinx.android.synthetic.main.fragment_result.*
 
 class ResultActivity:AppCompatActivity() {
@@ -25,7 +25,7 @@ class ResultActivity:AppCompatActivity() {
             startActivity(
                 Intent(
                     this,
-                    QuestionMainactivity::class.java,
+                    MainQuestionActivity::class.java,
                 )
             )
 

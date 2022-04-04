@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.TextView
 import androidx.fragment.app.Fragment
-import com.example.doctor.R
+import com.example.Doctor.R
 
 class Dhanurasana:Fragment(R.layout.dhanurasana) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
