@@ -48,7 +48,7 @@
                 android:textSize="30sp" />
 
             <ImageView
-                android:id="@+id/crocin"
+                android:id="@+id/img_crocin"
                 android:layout_width="match_parent"
                 android:layout_height="194dp"
                 android:importantForAccessibility="no"

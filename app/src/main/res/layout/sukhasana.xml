@@ -2,7 +2,8 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/background001">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,32 +22,29 @@
             android:textColor="@color/black"
             android:background="#B39DDB"/>
 
-        <VideoView
+        <ImageView
             android:id="@+id/imageView12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:src="@drawable/sukhasana"
             android:layout_margin="10dp"/>
 
         <TextView
             android:id="@+id/textView24"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Yogis have been practicing Sukhasana (Easy Pose) for centuries as a preferred posture for meditation. In many yogic traditions, the main purpose of Easy Pose is to drop into a meditative state. “Sukh” can also mean happy or joyful in Sanskrit, which is a feeling we hope to find within ourselves in a meditation practice.
-                            Sukhasana is one of the many paths to get there.\n\n
-                           Easy Pose may have been easy when you were a child, but as an adult,sitting cross-legged can be tricky. Our joints are no longer accustomed to the required rotation and flexibility, thanks to a chair-oriented culture that can cause tight hips and achy knees. Sitting in a chair for several hours a day encourages your body to lean back and sink into your midsection.\n\n
-                              If you work at a computer, you may lean forward and round your shoulders. Sukhasana, on the other hand, requires you to engage your core and back muscles to distribute your weight evenly over your sit bones. You also have to balance your shoulders over your hips and align your head with the rest of your spine. The pose helps stretch the hips and ankles, and strengthen back and abdominal muscles."
-              android:textSize="16dp"
-            android:textColor="@color/black"
+            android:layout_margin="10dp"
             android:background="#FFF59D"
-            android:layout_margin="10dp"/>
+            android:text="@string/sukhsana"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
 
         <TextView
             android:id="@+id/detail_sukhasana"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="click here for more detail"
-            android:textSize="15sp"
+            android:textSize="25sp"
             android:textStyle="bold"
             android:textColor="#370740"
             android:layout_margin="10dp"/>

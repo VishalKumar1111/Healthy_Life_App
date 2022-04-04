@@ -26,7 +26,7 @@
         android:layout_height="0dp"
         android:layout_marginTop="290dp"
         android:layout_marginBottom="160dp"
-        android:text="\nDOCTOR's \n      APP "
+        android:text="\nHealthy \n    Life "
         android:textColor="#292424"
         android:textSize="40sp"
         android:textStyle="bold"

@@ -33,5 +33,8 @@ class CardView : Fragment(R.layout.fragment_card_view) {
         imghealth.setOnClickListener {
             Navigation.findNavController(view).navigate(R.id.action_cardView_to_care)
         }
+        img_medicine.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_cardView_to_medicine)
+        }
          }
     }

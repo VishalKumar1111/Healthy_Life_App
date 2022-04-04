@@ -91,6 +91,9 @@
         <action
             android:id="@+id/action_cardView_to_mian_quiz"
             app:destination="@id/mian_quiz" />
+        <action
+            android:id="@+id/action_cardView_to_medicine"
+            app:destination="@id/medicine" />
 
     </fragment>
     <fragment
@@ -152,10 +155,73 @@
             android:name="com.example.Doctor.CARE"
             android:label="Care"
             tools:layout="@layout/health_care"/>
-    <fragment
+        <fragment
             android:id="@+id/mian_quiz"
-            android:name="com.example.Doctor.Next.QuestionActivity.QuestionMainactivity"
+            android:name="com.example.Doctor.Next.QuestionActivity.MainQuestionActivity"
             android:label="Quizze"
-            tools:layout="@layout/fragement_quiz_main"/>
+            tools:layout="@layout/fragement_quiz_main">
+            <action
+                android:id="@+id/action_mian_quiz_to_question"
+                app:destination="@id/question" />
+        </fragment>
+        <fragment
+             android:id="@+id/question"
+             android:name="com.example.Doctor.Next.QuestionActivity.QuestionActivity"
+             android:label="Question"
+             tools:layout="@layout/fragment_question"/>
+        <fragment
+             android:id="@+id/amoxicillin"
+             android:name="com.example.Doctor.Medicine_Types.Amoxicillin"
+             android:label="Amoxicillin"
+             tools:layout="@layout/amoxicillin"/>
+        <fragment
+             android:id="@+id/paracetamol"
+             android:name="com.example.Doctor.Medicine_Types.Paracetamol"
+             android:label="Paracetamol"
+             tools:layout="@layout/paracetamol"/>
+        <fragment
+             android:id="@+id/evion"
+             android:name="com.example.Doctor.Medicine_Types.Evion"
+             android:label="Evion"
+             tools:layout="@layout/evion"/>
+        <fragment
+             android:id="@+id/img_crocin"
+             android:name="com.example.Doctor.Medicine_Types.Crocin"
+             android:label="Crocin"
+             tools:layout="@layout/crocin"/>
+        <fragment
+             android:id="@+id/vitamin_d"
+             android:name="com.example.Doctor.Medicine_Types.VitaminD"
+             android:label="VitaminD"
+             tools:layout="@layout/vitamind"/>
+        <fragment
+             android:id="@+id/hrapudina"
+             android:name="com.example.Doctor.Medicine_Types.PudinHara"
+             android:label="HaraPudina"
+             tools:layout="@layout/hara_pudina"/>
+        <fragment
+             android:id="@+id/medicine"
+             android:name="com.example.Doctor.CARE"
+             android:label="Medicine"
+             tools:layout="@layout/medicine">
+            <action
+                android:id="@+id/action_medicine_to_amoxicillin"
+                app:destination="@id/amoxicillin" />
+            <action
+                android:id="@+id/action_medicine_to_evion"
+                app:destination="@id/evion" />
+            <action
+                android:id="@+id/action_medicine_to_crocin"
+                app:destination="@id/img_crocin" />
+            <action
+                android:id="@+id/action_medicine_to_vitamin_d"
+                app:destination="@id/vitamin_d" />
+            <action
+                android:id="@+id/action_medicine_to_paracetamol"
+                app:destination="@id/paracetamol" />
+            <action
+                android:id="@+id/action_medicine_to_hrapudina"
+                app:destination="@id/hrapudina" />
+        </fragment>
 
 </navigation>

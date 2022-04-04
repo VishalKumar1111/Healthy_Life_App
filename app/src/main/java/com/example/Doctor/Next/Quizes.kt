@@ -1,4 +1,4 @@
-package com.example.Doctor.Next
+ package com.example.Doctor.Next
 
 import android.content.Intent
 import android.os.Bundle
@@ -14,11 +14,6 @@ class Quizes: AppCompatActivity() {
 
        window.decorView.systemUiVisibility=View.SYSTEM_UI_FLAG_FULLSCREEN
 
-        btn_start.setOnClickListener{
-            val intent=Intent(this,MainQuestionActivity::class.java)
-            startActivity(intent)
-            finish()
 
-        }
             }
 }

@@ -2,7 +2,8 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/background001">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,7 +36,7 @@
             android:text="For many of us, our first attempt at an arm balance isn’t always successful (or pretty), which makes this type of yoga pose challenging to the body and the ego. Bakasana (Crane Pose) and Kakasana (Crow Pose) are among the first arm balances that many students achieve. Getting into the pose can feel nearly impossible—until it doesn’t. These poses offer you an opportunity to feel both strong and flexible, which can motivate you to challenge yourself in other ways in your practice.\n\n
                           While Crane and Crow are technically two different poses, many people practice these as modifications of one another. Kakasana (Crow Pose) is done with your arms bent and your knees resting on your upper arms. In Bakasana (Crane Pose), your arms are straight and your knees are tucked closer to your underarms. Play with variations that work best for your body.\n\n
                           To get into either pose, you need to activate your abdominal muscles, press into your hands, engage your shoulder blades, squeeze your legs together in midline, and above all else, trust yourself. Bakasana teaches you to create connections between your arms and knees, abdominals and spine, mind and body.\n"
-            android:textSize="18dp"
+            android:textSize="24dp"
             android:textColor="@color/black"
             android:background="#FFF59D"
             android:layout_margin="10dp"/>
@@ -45,7 +46,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="click here for more detail"
-            android:textSize="15sp"
+            android:textSize="25sp"
             android:textStyle="bold"
             android:textColor="#370740"
             android:layout_margin="10dp"/>
