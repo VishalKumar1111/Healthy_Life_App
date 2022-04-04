@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context="com.example.Doctor.MainActivity"
     android:id="@+id/drawerLayout"
     android:fitsSystemWindows="true"
     tools:openDrawer="start"
@@ -31,5 +31,12 @@
             app:layout_constraintVertical_bias="1.0"
             app:navGraph="@navigation/nav_graph" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/navigation_view"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/sidemenu"
+        android:layout_gravity="start"
+        />
 </androidx.drawerlayout.widget.DrawerLayout>

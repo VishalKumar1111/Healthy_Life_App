@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/Login"
-        android:name="com.example.doctor.Starting.Login"
+        android:name="com.example.Doctor.Starting.Login"
         android:label="Login "
         tools:layout="@layout/login">
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/SignUp"
-        android:name="com.example.doctor.Starting.SignUp"
+        android:name="com.example.Doctor.Starting.SignUp"
         android:label="SIgnUp "
         tools:layout="@layout/sign_up" >
         <action
@@ -29,7 +29,7 @@
 
     <fragment
         android:id="@+id/analysis"
-        android:name="com.example.doctor.Analysis"
+        android:name="com.example.Doctor.Analysis"
         android:label="fragment_analysis"
         tools:layout="@layout/fragment_analysis" >
         <action
@@ -38,7 +38,7 @@
     </fragment>
     <fragment
         android:id="@+id/meditation"
-        android:name="com.example.doctor.Meditation"
+        android:name="com.example.Doctor.Meditation"
         android:label="fragment_meditation"
         tools:layout="@layout/fragment_meditation" >
         <action
@@ -47,7 +47,7 @@
     </fragment>
     <fragment
         android:id="@+id/quiz"
-        android:name="com.example.doctor.Quiz"
+        android:name="com.example.Doctor.Quiz"
         android:label="fragment_quiz"
         tools:layout="@layout/fragment_quiz" >
 
@@ -57,7 +57,7 @@
     </fragment>
     <fragment
         android:id="@+id/health"
-        android:name="com.example.doctor.Health"
+        android:name="com.example.Doctor.Health"
         android:label="fragment_health"
         tools:layout="@layout/fragment_health" >
         <action
@@ -66,7 +66,7 @@
     </fragment>
     <fragment
         android:id="@+id/cardView"
-        android:name="com.example.doctor.CardView"
+        android:name="com.example.Doctor.CardView"
         android:label="fragment_card_view"
         tools:layout="@layout/fragment_card_view" >
         <action
@@ -88,26 +88,29 @@
         <action
             android:id="@+id/action_cardView_to_care"
             app:destination="@id/care" />
+        <action
+            android:id="@+id/action_cardView_to_mian_quiz"
+            app:destination="@id/mian_quiz" />
 
     </fragment>
     <fragment
         android:id="@+id/quizes2"
-        android:name="com.example.doctor.Next.Quizes"
+        android:name="com.example.Doctor.Next.Quizes"
         android:label="Quizes"
         tools:layout="@layout/quiz"/>
     <fragment
         android:id="@+id/analys"
-        android:name="com.example.doctor.Next.Analysis"
+        android:name="com.example.Doctor.Next.Analysis"
         android:label="Analys"
         tools:layout="@layout/analysis"/>
     <fragment
         android:id="@+id/medico"
-        android:name="com.example.doctor.Next.Meditation"
+        android:name="com.example.Doctor.Next.Meditation"
         android:label="meidtation"
         tools:layout="@layout/meditation"/>
     <fragment
             android:id="@+id/yoga"
-            android:name="com.example.doctor.Yoga"
+            android:name="com.example.Doctor.Yoga"
             android:label="Yoga"
             tools:layout="@layout/fragment_yoga">
 
@@ -126,28 +129,33 @@
     </fragment>
         <fragment
             android:id="@+id/kakas"
-            android:name="com.example.doctor.Yoga_Types.kakasana"
+            android:name="com.example.Doctor.Yoga_Types.kakasana"
             android:label="Kakasana"
             tools:layout="@layout/kakasana"/>
         <fragment
             android:id="@+id/vakras"
-            android:name="com.example.doctor.Yoga_Types.Vakrasana"
+            android:name="com.example.Doctor.Yoga_Types.Vakrasana"
             android:label="Vakrasana"
             tools:layout="@layout/vakrasana"/>
         <fragment
             android:id="@+id/sukhas"
-            android:name="com.example.doctor.Yoga_Types.Sukhasana"
+            android:name="com.example.Doctor.Yoga_Types.Sukhasana"
             android:label="Sukhasana"
             tools:layout="@layout/sukhasana"/>
         <fragment
             android:id="@+id/dhanura"
-            android:name="com.example.doctor.Yoga_Types.Dhanurasana"
+            android:name="com.example.Doctor.Yoga_Types.Dhanurasana"
             android:label="Dhanurasana"
             tools:layout="@layout/dhanurasana"/>
         <fragment
             android:id="@+id/care"
-            android:name="com.example.doctor.CARE"
+            android:name="com.example.Doctor.CARE"
             android:label="Care"
             tools:layout="@layout/health_care"/>
+    <fragment
+            android:id="@+id/mian_quiz"
+            android:name="com.example.Doctor.Next.QuestionActivity.QuestionMainactivity"
+            android:label="Quizze"
+            tools:layout="@layout/fragement_quiz_main"/>
 
 </navigation>

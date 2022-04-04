@@ -29,30 +29,33 @@
         <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/drawable/wrong_option_border_bg.xml" value="0.18518518518518517" />
         <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/activity_splash_screen.xml" value="0.17" />
-        <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/analysis.xml" value="0.22" />
-        <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/dhanurasana.xml" value="0.22" />
+        <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/analysis.xml" value="0.2" />
+        <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/dhanurasana.xml" value="0.18645833333333334" />
         <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/fragement_quiz_main.xml" value="0.22" />
         <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/fragement_user_profile.xml" value="0.22" />
         <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/fragment_analysis.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/fragment_card_view.xml" value="0.1" />
+        <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/fragment_card_view.xml" value="0.18" />
         <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/fragment_correct_answer.xml" value="0.33" />
         <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/fragment_health.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/fragment_meditation.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/fragment_quiz.xml" value="0.25" />
+        <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/fragment_question.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/fragment_quiz.xml" value="0.2" />
         <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/fragment_quiz_game.xml" value="0.22" />
+        <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/fragment_result.xml" value="0.18645833333333334" />
         <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/fragment_rule.xml" value="0.18645833333333334" />
         <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/fragment_title.xml" value="0.18645833333333334" />
         <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/fragment_wrong_answer.xml" value="0.2" />
-        <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/fragment_yoga.xml" value="0.22" />
+        <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/fragment_yoga.xml" value="0.21" />
+        <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/header.xml" value="0.1" />
         <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/health_care.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/kakasana.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/login.xml" value="0.22" />
-        <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/medicine.xml" value="0.18229166666666666" />
-        <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/meditation.xml" value="0.25" />
+        <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/medicine.xml" value="0.11241830065359477" />
+        <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/meditation.xml" value="0.2" />
         <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/model.xml" value="0.2" />
         <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/quiz.xml" value="0.1" />
         <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/sign_up.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/sukhasana.xml" value="0.36729857819905215" />
+        <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/sukhasana.xml" value="0.2" />
         <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/vakrasana.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/mipmap-anydpi-v26/Doctor.xml" value="0.18611111111111112" />
         <entry key="..\:/Users/pcc/Desktop/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/mipmap-anydpi-v26/abc.xml" value="0.2203125" />

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.doctor">
+    package="com.example.Doctor">
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Doctor">
         <activity
-            android:name=".Splash_Screen"
+            android:name="com.example.Doctor.Splash_Screen"
             android:exported="true"
             android:theme="@style/splash_Screen_theme">
             <intent-filter>
@@ -21,13 +21,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.Doctor.MainActivity"
             android:exported="true">
 
         </activity>
 
         <service
-            android:name=".MyFireBaseService"
+            android:name="com.example.Doctor.MyFireBaseService"
             android:exported="false">
            <intent-filter>
                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
