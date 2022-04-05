@@ -36,5 +36,6 @@ class Login:Fragment(R.layout.login){
             if ( password.text.toString().isBlank())
                 Toast.makeText(requireContext(), "All field are requied",Toast.LENGTH_SHORT).show()
         }
+
     }
 }

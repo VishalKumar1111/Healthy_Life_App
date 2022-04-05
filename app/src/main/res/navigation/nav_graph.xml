@@ -105,7 +105,32 @@
         android:id="@+id/analys"
         android:name="com.example.Doctor.Next.Analysis"
         android:label="Analys"
-        tools:layout="@layout/analysis"/>
+        tools:layout="@layout/analysis">
+        <action
+            android:id="@+id/action_analys_to_flu"
+            app:destination="@id/flu" />
+        <action
+            android:id="@+id/action_analys_to_cancer"
+            app:destination="@id/cancer" />
+        <action
+            android:id="@+id/action_analys_to_maleria"
+            app:destination="@id/maleria" />
+        <action
+            android:id="@+id/action_analys_to_dengue"
+            app:destination="@id/dengue" />
+        <action
+            android:id="@+id/action_analys_to_typhoid_fever"
+            app:destination="@id/typhoid_fever" />
+        <action
+            android:id="@+id/action_analys_to_tuberclosis"
+            app:destination="@id/tuberclosis" />
+        <action
+            android:id="@+id/action_analys_to_covid"
+            app:destination="@id/covid" />
+        <action
+            android:id="@+id/action_analys_to_pneumonia"
+            app:destination="@id/pneumonia" />
+    </fragment>
     <fragment
         android:id="@+id/medico"
         android:name="com.example.Doctor.Next.Meditation"
@@ -152,7 +177,7 @@
             tools:layout="@layout/dhanurasana"/>
         <fragment
             android:id="@+id/care"
-            android:name="com.example.Doctor.CARE"
+            android:name="com.example.Doctor.Health_tip"
             android:label="Care"
             tools:layout="@layout/health_care"/>
         <fragment
@@ -199,6 +224,47 @@
              android:name="com.example.Doctor.Medicine_Types.PudinHara"
              android:label="HaraPudina"
              tools:layout="@layout/hara_pudina"/>
+        <fragment
+             android:id="@+id/cancer"
+             android:name="com.example.Doctor.Analysis_types.Cancer"
+             android:label="Cancer"
+             tools:layout="@layout/fragment_cancer"/>
+        <fragment
+             android:id="@+id/covid"
+             android:name="com.example.Doctor.Analysis_types.Covid"
+             android:label="Covid"
+             tools:layout="@layout/fragment_covid"/>
+        <fragment
+             android:id="@+id/dengue"
+             android:name="com.example.Doctor.Analysis_types.Dengu"
+             android:label="Dengue"
+             tools:layout="@layout/fragment_dengu"/>
+        <fragment
+             android:id="@+id/flu"
+             android:name="com.example.Doctor.Analysis_types.Flu"
+             android:label="FLu"
+             tools:layout="@layout/fragment_flu"/>
+        <fragment
+             android:id="@+id/maleria"
+             android:name="com.example.Doctor.Analysis_types.Maleria"
+             android:label="Maleria"
+             tools:layout="@layout/fragment_maleria"/>
+        <fragment
+             android:id="@+id/tuberclosis"
+             android:name="com.example.Doctor.Analysis_types.Tuberclosis"
+             android:label="Tuberclosis"
+             tools:layout="@layout/fragment_tuberclosis"/>
+        <fragment
+             android:id="@+id/typhoid_fever"
+             android:name="com.example.Doctor.Analysis_types.TyphoidFever"
+             android:label="Typhoid_Fever"
+             tools:layout="@layout/fragment_typhoid_fever"/>
+        <fragment
+             android:id="@+id/pneumonia"
+             android:name="com.example.Doctor.Analysis_types.Pneumonia"
+             android:label="Pneumonia"
+             tools:layout="@layout/fragment_pneumonia"/>
+
         <fragment
              android:id="@+id/medicine"
              android:name="com.example.Doctor.CARE"
