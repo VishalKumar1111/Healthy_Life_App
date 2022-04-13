@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "939527611447",
-    "project_id": "doctor-21363",
-    "storage_bucket": "doctor-21363.appspot.com"
+    "project_number": "390329911573",
+    "project_id": "doctor-4d5a9",
+    "storage_bucket": "doctor-4d5a9.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:939527611447:android:510e6d40d6144e9b2f8bb2",
+        "mobilesdk_app_id": "1:390329911573:android:c8b9c994b92dd4c334411c",
         "android_client_info": {
           "package_name": "com.example.doctor"
         }
       },
       "oauth_client": [
         {
-          "client_id": "939527611447-vihj97d7rttkqqritsp62emq86jqsqc9.apps.googleusercontent.com",
+          "client_id": "390329911573-51u7g3e3ifa5i3bpk2ed3njqervi6rek.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDx46M1qojZYC0rFfScaXJP2fDLHF_qkQo"
+          "current_key": "AIzaSyBtR4UlEKbVeuTTKNFS4M0_6-fX_5hPZDE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "939527611447-vihj97d7rttkqqritsp62emq86jqsqc9.apps.googleusercontent.com",
+              "client_id": "390329911573-51u7g3e3ifa5i3bpk2ed3njqervi6rek.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
