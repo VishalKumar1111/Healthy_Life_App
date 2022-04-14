@@ -14,9 +14,9 @@ import kotlinx.android.synthetic.main.sign_up.*
 
 class Login:Fragment(R.layout.login){
     private lateinit var auth: FirebaseAuth
-
-    private val  ref=FirebaseAuth.getInstance()
+ //   private val  ref=FirebaseAuth.getInstance()
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+
         super.onViewCreated(view, savedInstanceState)
         auth = FirebaseAuth.getInstance()
 
@@ -27,7 +27,7 @@ class Login:Fragment(R.layout.login){
         register.setOnClickListener {
 
             if(android.util.Patterns.EMAIL_ADDRESS.matcher(login.text.toString()).matches() && password.text.toString().isNotBlank()) {
-                ref.createUserWithEmailAndPassword(login.text.toString().trim(),
+                auth.createUserWithEmailAndPassword(login.text.toString().trim(),
                     password.text.toString().trim())
                 Navigation.findNavController(view).navigate(R.id.action_Login_to_analysis)
                 Toast.makeText(requireContext(),"Logged In Succesfully",Toast.LENGTH_SHORT).show()
