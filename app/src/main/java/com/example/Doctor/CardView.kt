@@ -22,7 +22,7 @@ class CardView : Fragment(R.layout.fragment_card_view) {
             Navigation.findNavController(view).navigate(R.id.action_cardView_to_analys)
         }
         imgquiz.setOnClickListener{
-            Navigation.findNavController(view).navigate(R.id.action_cardView_to_mian_quiz)
+            Navigation.findNavController(view).navigate(R.id.action_cardView_to_question)
         }
         imgmeditation.setOnClickListener{
             Navigation.findNavController(view).navigate(R.id.action_cardView_to_medico)

@@ -1,85 +1,89 @@
 package com.example.Doctor.Next.QuestionActivity
 
+import android.os.Bundle
+import androidx.fragment.app.Fragment
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.Button
+import android.widget.TextView
 import com.example.Doctor.R
 
 
-class Question(
-    val id: Int,
-    val text: String,
-    val image: Int,
-    val option1: String,
-    val option2: String,
-    val option3: String,
-    val option4: String,
-    val correctAnswer: String
-)
+class Question : Fragment(R.layout.fragment_question2) {
 
+    private var count=0
+    var score=0
+    private var next=0
 
-fun getQuestions(): ArrayList<Question> {
-    val questions = ArrayList<Question>()
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
 
-    questions.add(
-        Question(
-            0,
-            "To which programming language does this mascot belongs?",
-            R.drawable.kotlin_mascot,
-            "Java",
-            "Marshmallow",
-            "C++",
-            "Kotlin",
-            "Kotlin"
-        )
-    )
-    questions.add(
-        Question(
-            1,
-            "Which language is the easiest to learn?",
-            R.drawable.languages,
-            "Kotlin",
-            "C++",
-            "Java",
-            "Python",
-            "Python"
-        )
-    )
+        val text=view.findViewById<TextView>(R.id.textView)
+        val button=view.findViewById<Button>(R.id.button2)
+        val button2=view.findViewById<Button>(R.id.button3)
 
-    questions.add(
-        Question(
-            2,
-            "Which one is used to implement an infinite loop?",
-            R.drawable.loop,
-            "For loop",
-            "Infinix loop",
-            "While loop",
-            "Repeat loop",
-            "While loop"
-        )
-    )
+        button.setOnClickListener {
+            count++
+            var score=0
+            if(count==1)
+            {
+                text.text="Is you ARe Felling Depressed"
+                score+=1
+            }
+            if(count==2)
+            {
+                text.text="Are you Felling cold"
+                score+=1
+            }
+            if(count==3)
+            {
+                text.text="Disappointment at home, work, or school (in teens, this may be breaking up with a boyfriend or girlfriend, failing a class or parents divorcing)"
+                score+=1
 
-    questions.add(
-        Question(
-            3,
-            "What exactly is the 'Int' keyword used in programming languages?",
-            R.drawable.datatypes,
-            "Loop",
-            "Data type",
-            "Collection",
-            "International",
-            "Data type"
-        )
-    )
-    questions.add(
-        Question(
-            4,
-            "Which is the entry-point function in kotlin?",
-            R.drawable.kotlin,
-            "Main",
-            "Top",
-            "Enter",
-            "Func",
-            "Main"
-        )
-    )
+            }
+            if (count==4)
+            {
+                text.text="Do you often oversleep? Do you think you get too little sleep (and may have insomnia)?"
+                score+=1
+            }
+            if (count==5){
+                text.text="Do you have aches and pains?"
+                score+=1
+            }
+            /*    if (count>3)
+               {
+                    findNavController().navigate(R.id.action_fourth_to_yes)
+                }
+        */
+        }
+        button2.setOnClickListener {
+            next++
+            if (next==1){
+                text.text="Have parents, other relatives, or maybe even friends accused you of being “irritated,” “nasty,” or “always in a bad mood?"
+                score-+1
+            }
+            if (next==2){
+                text.text="Does life seem pointless?"
+                score-=1
+            }
+            if(next==3){
+                text.text="Does it seem like it’s impossible to concentrate?"
+                score-=1
+            }
+            if (next==4){
+                text.text="Have you withdrawn from your friends and family?"
+                score-=1
+            }
+            if (next==5){
+                text.text="Have you noticed a sudden change in your weight?"
+                score-=1
+            }
+        }
 
-    return questions
+        /*     if (score>3){
+             findNavController().navigate(R.id.action_fourth_to_yes)
+             }
+         */
+    }
 }

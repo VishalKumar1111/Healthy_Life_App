@@ -49,7 +49,7 @@
             android:layout_height="194dp"
             android:importantForAccessibility="no"
             android:scaleType="centerCrop"
-            android:src="@drawable/quiz"/>
+            android:src="@drawable/two"/>
 
         <TextView
             android:id="@+id/text_quiz"
@@ -57,7 +57,7 @@
             android:layout_height="wrap_content"
             android:padding="16dp"
             android:textSize="30sp"
-            android:text="Chill Zone"
+            android:text="Know Your Stress Level"
             android:textAppearance="?attr/textAppearanceHeadline6" />
         <ImageView
             android:id="@+id/img_health"

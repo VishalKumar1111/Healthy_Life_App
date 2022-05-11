@@ -3,6 +3,49 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/activity_main.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/activity_splash_screen.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/amoxicillin.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/analysis.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/crocin.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/dhanurasana.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/evion.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/fragement_quiz_main.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/fragment_analysis.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/fragment_cancer.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/fragment_card_view.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/fragment_covid.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/fragment_dengu.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/fragment_flu.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/fragment_health.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/fragment_maleria.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/fragment_meditation.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/fragment_mindfull.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/fragment_pneumonia.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/fragment_question.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/fragment_question2.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/fragment_quiz.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/fragment_result.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/fragment_rule.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/fragment_title.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/fragment_tuberclosis.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/fragment_typhoid_fever.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/fragment_wrong_answer.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/fragment_yoga.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/hara_pudina.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/header.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/health_care.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/kakasana.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/login.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/medicine.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/meditation.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/model.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/paracetamol.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/quiz.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/sign_up.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/sukhasana.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/vakrasana.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/R-Logixx/Desktop/mindwellness/Kotlin_Doctors_app/app/src/main/res/layout/vitamind.xml" value="0.15729166666666666" />
         <entry key="..\:/Users/R-Logixx/Downloads/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.17760416666666667" />
         <entry key="..\:/Users/R-Logixx/Downloads/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/drawable/ic_launcher_background.xml" value="0.17760416666666667" />
         <entry key="..\:/Users/R-Logixx/Downloads/Kotlin_Doctors_app-master/Kotlin_Doctors_app-master/app/src/main/res/layout/activity_main.xml" value="0.15" />

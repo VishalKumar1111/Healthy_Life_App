@@ -69,10 +69,7 @@
         android:name="com.example.Doctor.CardView"
         android:label="fragment_card_view"
         tools:layout="@layout/fragment_card_view" >
-        <action
-            android:id="@+id/action_cardView_to_quizes2"
-            app:destination="@id/quizes2"
-            />
+
         <action
             android:id="@+id/action_cardView_to_analys"
             app:destination="@id/analys" />
@@ -88,19 +85,16 @@
         <action
             android:id="@+id/action_cardView_to_care"
             app:destination="@id/care" />
-        <action
-            android:id="@+id/action_cardView_to_mian_quiz"
-            app:destination="@id/mian_quiz" />
+
         <action
             android:id="@+id/action_cardView_to_medicine"
             app:destination="@id/medicine" />
+        <action
+            android:id="@+id/action_cardView_to_question"
+            app:destination="@id/question" />
 
     </fragment>
-    <fragment
-        android:id="@+id/quizes2"
-        android:name="com.example.Doctor.Next.Quizes"
-        android:label="Quizes"
-        tools:layout="@layout/quiz"/>
+
     <fragment
         android:id="@+id/analys"
         android:name="com.example.Doctor.Next.Analysis"
@@ -180,20 +174,8 @@
             android:name="com.example.Doctor.Health_tip"
             android:label="Care"
             tools:layout="@layout/health_care"/>
-        <fragment
-            android:id="@+id/mian_quiz"
-            android:name="com.example.Doctor.Next.QuestionActivity.MainQuestionActivity"
-            android:label="Quizze"
-            tools:layout="@layout/fragement_quiz_main">
-            <action
-                android:id="@+id/action_mian_quiz_to_question"
-                app:destination="@id/question" />
-        </fragment>
-        <fragment
-             android:id="@+id/question"
-             android:name="com.example.Doctor.Next.QuestionActivity.QuestionActivity"
-             android:label="Question"
-             tools:layout="@layout/fragment_question"/>
+
+
         <fragment
              android:id="@+id/amoxicillin"
              android:name="com.example.Doctor.Medicine_Types.Amoxicillin"
@@ -289,5 +271,9 @@
                 android:id="@+id/action_medicine_to_hrapudina"
                 app:destination="@id/hrapudina" />
         </fragment>
+    <fragment
+        android:id="@+id/question"
+        android:name="com.example.Doctor.Next.QuestionActivity.Question"
+        android:label="Question" />
 
 </navigation>
