@@ -274,6 +274,21 @@
     <fragment
         android:id="@+id/question"
         android:name="com.example.Doctor.Next.QuestionActivity.Question"
-        android:label="Question" />
+        android:label="Question" >
+        <action
+            android:id="@+id/action_question_to_yes"
+            app:destination="@id/yes" />
+        <action
+            android:id="@+id/action_question_to_no"
+            app:destination="@id/no" />
+    </fragment>
+    <fragment
+        android:id="@+id/yes"
+        android:name="com.example.Doctor.Next.QuestionActivity.Yes"
+        android:label="Yes" />
+    <fragment
+        android:id="@+id/no"
+        android:name="com.example.Doctor.Next.QuestionActivity.No"
+        android:label="No" />
 
 </navigation>
